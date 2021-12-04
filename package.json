@@ -1,0 +1,42 @@
+{
+  "name": "rhyme-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r  dotenv/config ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yonanni/rhyme-be.git"
+  },
+  "keywords": [],
+  "author": "Riccardo Gulin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yonanni/rhyme-be/issues"
+  },
+  "homepage": "https://github.com/Yonanni/rhyme-be#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.26.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-list-endpoints": "^6.0.0",
+    "http-errors": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.3",
+    "multer": "^1.4.3",
+    "multer-storage-cloudinary": "^4.0.0",
+    "passport": "^0.5.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
